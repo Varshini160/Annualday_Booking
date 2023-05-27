@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+body {
+    font-family: "Lato",cursive;
+    font-size: 18px;
+    line-height: 1.5;
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/04/21/00/fireworks-1953253__480.jpg");
+    background-size: cover;
+    
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #888888;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: red;
+    text-shadow: 2px 2px 4px #333333;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

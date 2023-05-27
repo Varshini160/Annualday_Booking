@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<style>
+body {
+  align-items: center;
+  color:white;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #656566;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 350px;
+  padding: 20px;
+  width: 300px;
+}
+input[type=submit]{
+    position: absolute;
+    background-color:#ededef;
+    color: black;
+    border:none;
+    border-radius:10px;
+    margin-left:85px;
+    height: 25px;
+    box-shadow: 0px 0px 2px 2px rgb(133, 131, 131);
+}
+
+</style>
+</head>
+<body>
+<form method="post" action="valid.php">
+<h1>Registration</h1>
+<input type ="text" Name="uname" placeholder="Name"></input><br><br>
+<input type ="text" Name="email" placeholder="Email"></input><br><br>
+<label for="dob"> DOB:</label>
+<input type="date" name="date"  min="1990-01-01" max="2025-12-31"><br><br>
+<input type="radio" name="Degree" value="BE"/>BE
+<input type="radio" name="Degree" value="BSE"/>BSC
+<input type="radio" name="Degree" value="BTECH"/>BTECH<br><br>
+<input type="checkbox" name="accept" value="accept"/>Accept all terms and conditions<br><br>
+<input type="submit" name="submit" value="Validate"></input>
+</form>
+</body>
+</html>
